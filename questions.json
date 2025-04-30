@@ -1,0 +1,1277 @@
+{
+  "html": [
+    {
+      "id": 1,
+      "text": {
+        "ua": "Який тег використовується для створення посилання?",
+        "ru": "Какой тег используется для создания ссылки?",
+        "en": "Which tag is used to create a link?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<link>", "isCorrect": false },
+        { "id": 2, "text": "<a>", "isCorrect": true },
+        { "id": 3, "text": "<href>", "isCorrect": false },
+        { "id": 4, "text": "<anchor>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 2,
+      "text": {
+        "ua": "Який тег використовується для вставки зображення?",
+        "ru": "Какой тег используется для вставки изображения?",
+        "en": "Which tag is used to insert an image?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<img>", "isCorrect": true },
+        { "id": 2, "text": "<picture>", "isCorrect": false },
+        { "id": 3, "text": "<media>", "isCorrect": false },
+        { "id": 4, "text": "<graphic>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 3,
+      "text": {
+        "ua": "Який тег у <html> визначає заголовок документа?",
+        "ru": "Какой тег находится в <html> определяет заголовок документа?",
+        "en": "Which tag inside <html> defines the document's header?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<head>", "isCorrect": true },
+        { "id": 2, "text": "<header>", "isCorrect": false },
+        { "id": 3, "text": "<title>", "isCorrect": false },
+        { "id": 4, "text": "<meta>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 4,
+      "text": {
+        "ua": "Який атрибут використовується для визначення альтернативного тексту зображення?",
+        "ru": "Какой атрибут используется для определения альтернативного текста изображения?",
+        "en": "Which attribute is used to define alternative text for an image?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "src", "isCorrect": false },
+        { "id": 2, "text": "alt", "isCorrect": true },
+        { "id": 3, "text": "title", "isCorrect": false },
+        { "id": 4, "text": "href", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 5,
+      "text": {
+        "ua": "Який атрибут дозволяє відкрити посилання в новій вкладці?",
+        "ru": "Какой атрибут позволяет открыть ссылку в новой вкладке?",
+        "en": "Which attribute opens a link in a new tab?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "target=_blank", "isCorrect": true },
+        { "id": 2, "text": "target=blank", "isCorrect": false },
+        { "id": 3, "text": "target=_self", "isCorrect": false },
+        { "id": 4, "text": "target=_new", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 6,
+      "text": {
+        "ua": "Для чого використовується атрибут 'placeholder'?",
+        "ru": "Для чего используется атрибут 'placeholder'?",
+        "en": "What is the 'placeholder' attribute used for?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Атрибут 'placeholder' використовується для відображення текстової підказки або прикладу введення в полі форми до того, як користувач почне вводити свої дані.",
+        "ru": "Атрибут 'placeholder' используется для отображения текстовой подсказки или примера ввода в поле формы до того, как пользователь начнет вводить свои данные.",
+        "en": "The 'placeholder' attribute is used to display a hint or example input in a form field before the user starts typing."
+      }
+    },
+    {
+      "id": 7,
+      "text": {
+        "ua": "Як створити немаркований список у HTML?",
+        "ru": "Как создать непронумерованный список в HTML?",
+        "en": "How do you create an unordered list in HTML?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Для створення такого списку в HTML використовується тег <code>ul</code>, а для визначення кожного пункту списку — тег <code>li</code>.",
+        "ru": "Для создания такого списка в HTML используется тег <code>ul</code>, а для определения каждого пункта списка — тег <code>li</code>.",
+        "en": "To create such a list in HTML, use the <code>ul</code> tag and use <code>li</code> tags for each list item."
+      }
+    },
+    {
+      "id": 8,
+      "text": {
+        "ua": "Що таке HTML?",
+        "ru": "Что такое HTML?",
+        "en": "What is HTML?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "HTML (HyperText Markup Language) — це стандартизована мова розмітки, яка використовується для створення і розробки вебсторінок. Це система для розмітки окремих частин сторінки за допомогою тегів у кутових дужках.",
+        "ru": "HTML (HyperText Markup Language) — это стандартизированный язык разметки, который используется для создания и разработки веб-страниц. Это система для разметки отдельных частей веб-страницы с использованием тегов, заключенных в угловые скобки.",
+        "en": "HTML (HyperText Markup Language) is a standardized markup language used to create and develop web pages. It marks up sections of a webpage using tags enclosed in angle brackets."
+      }
+    },
+    {
+      "id": 9,
+      "text": {
+        "ua": "Що робить тег <!DOCTYPE>?",
+        "ru": "Что делает тег <!DOCTYPE>?",
+        "en": "What does the <!DOCTYPE> tag do?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Це декларація, яка повідомляє веббраузеру про версію мови розмітки, яка використовується для створення сторінки. Це допомагає браузеру правильно відобразити сторінку.",
+        "ru": "Это декларация, которая информирует веб-браузер о версии языка разметки, использованной при создании веб-страницы. Это помогает браузеру корректно отобразить страницу.",
+        "en": "`It is a declaration that informs the web browser about the version of the markup language used to create the page. It helps the browser render the page correctly."
+      }
+    },
+    {
+      "id": 10,
+      "text": {
+        "ua": "Який тег використовується для створення таблиці?",
+        "ru": "Какой тег используется для создания таблицы?",
+        "en": "Which tag is used to create a table?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<table>", "isCorrect": true },
+        { "id": 2, "text": "<grid>", "isCorrect": false },
+        { "id": 3, "text": "<row>", "isCorrect": false },
+        { "id": 4, "text": "<column>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 11,
+      "text": {
+        "ua": "Який тег використовується для створення заголовка таблиці?",
+        "ru": "Какой тег используется для создания заголовка таблицы?",
+        "en": "Which tag is used to create a table header?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<caption>", "isCorrect": false },
+        { "id": 2, "text": "<th>", "isCorrect": false },
+        { "id": 3, "text": "<thead>", "isCorrect": true },
+        { "id": 4, "text": "<title>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 12,
+      "text": {
+        "ua": "Який тег використовується для створення рядка таблиці?",
+        "ru": "Какой тег используется для создания строки таблицы?",
+        "en": "Which tag is used to create a table row?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<td>", "isCorrect": false },
+        { "id": 2, "text": "<row>", "isCorrect": false },
+        { "id": 3, "text": "<line>", "isCorrect": false },
+        { "id": 4, "text": "<tr>", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 13,
+      "text": {
+        "ua": "Який тег використовується для створення комірки таблиці?",
+        "ru": "Какой тег используется для создания ячейки таблицы?",
+        "en": "Which tag is used to create a table cell?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<cell>", "isCorrect": false },
+        { "id": 2, "text": "<tr>", "isCorrect": false },
+        { "id": 3, "text": "<th>", "isCorrect": false },
+        { "id": 4, "text": "<td>", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 14,
+      "text": {
+        "ua": "Що таке семантичні теги в HTML?",
+        "ru": "Что такое семантические теги в HTML?",
+        "en": "What are semantic tags in HTML?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Семантичні теги в HTML — це теги, які передають інформацію про зміст або призначення вмісту, а не лише про його зовнішній вигляд. Приклади семантичних тегів: header, footer, article, section, nav тощо. Вони допомагають створювати більш структуровані та доступні вебсторінки.",
+        "ru": "Семантические теги в HTML — это теги, которые передают информацию о смысле или назначении содержимого, а не только о его внешнем виде. Примеры семантических тегов: header, footer, article, section, nav и др. Они помогают создавать более структурированные и доступные веб-страницы.",
+        "en": "Semantic tags in HTML are tags that convey the meaning or purpose of the content, not just its appearance. Examples of semantic tags include header, footer, article, section, nav, and others. They help create more structured and accessible web pages."
+      }
+    },
+    {
+      "id": 15,
+      "text": {
+        "ua": "Який атрибут використовується для встановлення фонового зображення?",
+        "ru": "Какой атрибут используется для установки фонового изображения?",
+        "en": "Which attribute is used to set a background image?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "background", "isCorrect": false },
+        { "id": 2, "text": "background-color", "isCorrect": false },
+        { "id": 3, "text": "bgcolor", "isCorrect": false },
+        { "id": 4, "text": "background-image", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 16,
+      "text": {
+        "ua": "Який тег використовується для створення випадаючого списку?",
+        "ru": "Какой тег используется для создания выпадающего списка?",
+        "en": "Which tag is used to create a dropdown list?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<dropdown>", "isCorrect": false },
+        { "id": 2, "text": "<list>", "isCorrect": false },
+        { "id": 3, "text": "<select>", "isCorrect": true },
+        { "id": 4, "text": "<option>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 17,
+      "text": {
+        "ua": "Який тег використовується для вставки JavaScript коду в HTML документ?",
+        "ru": "Какой тег используется для вставки JavaScript кода в HTML документ?",
+        "en": "Which tag is used to insert JavaScript code into an HTML document?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<javascript>", "isCorrect": false },
+        { "id": 2, "text": "<script>", "isCorrect": true },
+        { "id": 3, "text": "<js>", "isCorrect": false },
+        { "id": 4, "text": "<java>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 18,
+      "text": {
+        "ua": "Який атрибут використовується для вказання шляху до зображення?",
+        "ru": "Какой атрибут используется для указания пути к изображению?",
+        "en": "Which attribute is used to specify the path to an image?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "src", "isCorrect": true },
+        { "id": 2, "text": "href", "isCorrect": false },
+        { "id": 3, "text": "path", "isCorrect": false },
+        { "id": 4, "text": "url", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 19,
+      "text": {
+        "ua": "Що робить атрибут 'readonly' в елементі форми?",
+        "ru": "Что делает атрибут 'readonly' в элементе формы?",
+        "en": "What does the 'readonly' attribute do in a form element?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Атрибут 'readonly' робить елемент форми лише для читання, тобто користувач не може змінювати значення елемента, але може його переглядати. Це корисно, якщо потрібно показати інформацію, яку не можна змінювати.",
+        "ru": "Атрибут 'readonly' делает элемент формы только для чтения, что значит, что пользователь не может изменять значение элемента, но может просматривать его. Это может быть полезно, если вы хотите отобразить информацию, которая не должна быть изменена.",
+        "en": "The 'readonly' attribute makes a form element read-only, meaning the user cannot change its value but can still view it. This is useful when displaying information that should not be modified."
+      }
+    },
+    {
+      "id": 20,
+      "text": {
+        "ua": "Що таке веб-стандарти і навіщо вони потрібні?",
+        "ru": "Что такое веб-стандарты и зачем они нужны?",
+        "en": "What are web standards and why are they important?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Веб-стандарти — це рекомендації, розроблені групами стандартів, такими як W3C або WHATWG, для забезпечення сумісності та стабільності вебтехнологій. Вони включають рекомендації щодо HTML, CSS, JavaScript та інших вебтехнологій. Дотримання веб-стандартів допомагає забезпечити правильну роботу вебсторінок у різних браузерах і на різних пристроях, а також спрощує обслуговування та розвиток вебсайтів у майбутньому.",
+        "ru": "Веб-стандарты - это рекомендации, разработанные группами стандартов, такими как W3C или WHATWG, для обеспечения совместимости и устойчивости веб-технологий. Они включают рекомендации по HTML, CSS, JavaScript и другим веб-технологиям. Соблюдение веб-стандартов помогает обеспечить корректную работу веб-страниц в различных браузерах и устройствах, а также облегчить обслуживание и расширение веб-сайтов в будущем.",
+        "en": "Web standards are guidelines developed by organizations such as W3C or WHATWG to ensure compatibility and stability of web technologies. They include recommendations for HTML, CSS, JavaScript, and other web technologies. Following web standards helps ensure web pages work correctly across different browsers and devices, and simplifies maintenance and future development."
+      }
+    },
+    {
+      "id": 21,
+      "text": {
+        "ua": "Що таке адаптивний (responsive) вебдизайн?",
+        "ru": "Что такое отзывчивый (responsive) веб-дизайн?",
+        "en": "What is responsive web design?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Це підхід до вебдизайну, який дозволяє вебсторінкам коректно відображатися і працювати на різних пристроях, включаючи мобільні телефони, планшети та настільні комп’ютери. Він використовує гнучкі макети, зображення та медіазапити CSS для адаптації дизайну до різних розмірів екранів і характеристик пристроїв.",
+        "ru": "Это подход к веб-дизайну, который позволяет веб-страницам корректно отображаться и функционировать на различных устройствах, включая мобильные телефоны, планшеты и настольные компьютеры, путем использования гибких макетов, гибких изображений и CSS медиазапросов для адаптации дизайна к различным размерам экрана и характеристикам устройств.",
+        "en": "It is an approach to web design that ensures web pages display and function properly on various devices, including mobile phones, tablets, and desktops, by using flexible layouts, flexible images, and CSS media queries to adapt the design to different screen sizes and device capabilities."
+      }
+    },
+    {
+      "id": 22,
+      "text": {
+        "ua": "Який тег HTML використовується для вставки відео?",
+        "ru": "Какой тег HTML используется для вставки видео?",
+        "en": "Which HTML tag is used to embed a video?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<media>", "isCorrect": false },
+        { "id": 2, "text": "<video>", "isCorrect": true },
+        { "id": 3, "text": "<movie>", "isCorrect": false },
+        { "id": 4, "text": "<multimedia>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 23,
+      "text": {
+        "ua": "Який тег використовується для створення головного заголовка на вебсторінці?",
+        "ru": "Какой тег используется для создания главного заголовка на веб-странице?",
+        "en": "Which tag is used to create the main heading on a webpage?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<h1>", "isCorrect": true },
+        { "id": 2, "text": "<header>", "isCorrect": false },
+        { "id": 3, "text": "<title>", "isCorrect": false },
+        { "id": 4, "text": "<head>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 24,
+      "text": {
+        "ua": "Що робить тег <br>?",
+        "ru": "Что делает тег <br>?",
+        "en": "What does the <br> tag do?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Він використовується для перенесення рядка, тобто дозволяє створити новий рядок у тому місці, де він розміщений. Це зручний спосіб керувати розташуванням тексту на вебсторінці без додаткових стилів чи елементів.",
+        "ru": "Он используется для переноса строки, что позволяет создать новую строку в том месте, где он размещен. Это удобный способ управления расположением текста на веб-странице без использования дополнительных стилей или элементов.",
+        "en": "It is used for line breaks, allowing you to create a new line at the location where the tag is placed. It is a convenient way to manage text layout on a web page without using additional styles or elements."
+      }
+    },
+    {
+      "id": 25,
+      "text": {
+        "ua": "Який тег використовується для створення впорядкованого списку?",
+        "ru": "Какой тег используется для создания упорядоченного списка?",
+        "en": "Which tag is used to create an ordered list?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<ul>", "isCorrect": false },
+        { "id": 2, "text": "<ol>", "isCorrect": true },
+        { "id": 3, "text": "<li>", "isCorrect": false },
+        { "id": 4, "text": "<list>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 26,
+      "text": {
+        "ua": "Що таке DOM у контексті веброзробки?",
+        "ru": "Что такое DOM в контексте веб-разработки?",
+        "en": "What is the DOM in the context of web development?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "DOM (Document Object Model) — це програмний інтерфейс для вебдокументів. Це представлення структурованого документа у вигляді об’єктної моделі, що дозволяє програмам і скриптам взаємодіяти зі вмістом, структурою та стилями вебсторінки. DOM представляє документ як дерево об’єктів, кожен з яких відповідає частині сторінки.",
+        "ru": "DOM (Document Object Model) - это программный интерфейс для веб-документов. Это представление структурированного документа в виде объектной модели, которое позволяет программам и скриптам взаимодействовать с содержимым, структурой и стилями веб-страницы. DOM представляет документ как дерево объектов, каждый из которых соответствует части страницы.",
+        "en": "DOM (Document Object Model) is a programming interface for web documents. It represents a structured document as an object model, allowing programs and scripts to interact with the content, structure, and styles of a web page. The DOM represents the document as a tree of objects, each corresponding to a part of the page."
+      }
+    },
+    {
+      "id": 27,
+      "text": {
+        "ua": "Який атрибут використовується для визначення стилів елемента на сторінці?",
+        "ru": "Какой атрибут используется для определения стилей элемента на странице?",
+        "en": "Which attribute is used to define an element's styles on the page?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "style", "isCorrect": true },
+        { "id": 2, "text": "css", "isCorrect": false },
+        { "id": 3, "text": "styles", "isCorrect": false },
+        { "id": 4, "text": "stylesheet", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 28,
+      "text": {
+        "ua": "Що таке атрибут 'alt' у теге <img>?",
+        "ru": "Что такое атрибут 'alt' в теге <img>?",
+        "en": "What is the 'alt' attribute in the <img> tag?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Він використовується для надання альтернативного тексту, який відображається у разі, якщо зображення не може бути завантажене. Це також корисно для забезпечення доступності, оскільки скрінрідери можуть використовувати цей текст для опису зображення користувачам з обмеженими можливостями.",
+        "ru": "Он используется для предоставления альтернативного текста, который будет отображаться в случае, если изображение не может быть загружено. Это также может быть полезно для обеспечения доступности, поскольку скрин-ридеры могут использовать этот текст для описания изображения пользователям с ограниченными возможностями.",
+        "en": "It is used to provide alternative text that appears if the image cannot be loaded. It is also useful for accessibility, as screen readers can use this text to describe the image to users with disabilities."
+      }
+    }
+  ],
+  "css": [
+    {
+      "id": 1,
+      "text": {
+        "ua": "У чому різниця між «скиданням» і «нормалізацією» CSS? Що б ви обрали і чому?",
+        "ru": "В чем разница между «сбросом» и «нормализацией» CSS? Что бы вы выбрали и почему?",
+        "en": "What is the difference between CSS 'reset' and 'normalize'? Which one would you choose and why?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Скидання (reset) обнуляє всі стилі елементів, встановлені браузером за замовчуванням. Normalize приводить стилі до єдиного вигляду в усіх браузерах. Краще використовувати Normalize для кросбраузерності.",
+        "ru": "Сброс (reset) сбрасывает все встроенные в браузер стили элементов. Normalize приводит стили к единому виду во всех браузерах. Лучше использовать Normalize из-за кроссбраузерности.",
+        "en": "Reset removes all default browser styles for elements. Normalize makes styles consistent across browsers. It's better to use Normalize for cross-browser compatibility."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "ua": "Що таке специфічність селекторів CSS і як вона працює?",
+        "ru": "Что такое специфичность селекторов CSS и как она работает?",
+        "en": "What is CSS selector specificity and how does it work?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Специфічність селектора — це властивість, що визначає пріоритет стилів: який стиль буде застосований до елемента у разі конфлікту. Наприклад, стилі UI-бібліотеки можна перевизначити своїми, використовуючи більш специфічний селектор.",
+        "ru": "Специфичность селектора (еще называют весом) это свойство определяющее приоритет стилевого правила, то есть то, какой стиль будет применен к HTML элементу в итоге. Например, используя какую-нибудь UI библиотеку, элементам этой библиотеки будут применены правила заданные авторами по умолчанию. При необходимости можно поменять стили на свои, «перебив» дефолтные более специфичным селектором.",
+        "en": "Selector specificity determines the priority of style rules, deciding which style is applied when multiple rules match the same element. For example, to override default UI library styles, you can use a more specific selector."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "ua": "Що таке CSS?",
+        "ru": "Что такое CSS?",
+        "en": "What is CSS?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "CSS (Cascading Style Sheets) — це мова стилів, що використовується для опису вигляду та форматування документів, написаних мовою розмітки, наприклад HTML. CSS дозволяє керувати макетом, шрифтами, кольорами та іншими стилістичними аспектами вебсторінки.",
+        "ru": "CSS (Cascading Style Sheets) - это язык стилей, используемый для описания внешнего вида и форматирования документа, написанного на языке разметки, таком как HTML. CSS позволяет разработчикам управлять макетом, шрифтами, цветами и другими стилистическими аспектами веб-страницы.",
+        "en": "CSS (Cascading Style Sheets) is a style language used to describe the look and formatting of a document written in a markup language like HTML. CSS allows developers to control layout, fonts, colors, and other stylistic aspects of a webpage."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "ua": "Чому зазвичай краще підключати CSS у <head>, а <script> перед закриваючим тегом </body>? Чи знаєте ви якісь винятки, наведіть приклади?",
+        "ru": "Почему, как правило, лучше разместить подключение CSS в <head>, а <script> перед тэгом </body>? Знаете ли вы какие-либо исключения, приведите примеры?",
+        "en": "Why is it generally better to place CSS in the <head> and <script> before the closing </body> tag? Do you know any exceptions? Give examples."
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Стили слід підключати в head, щоб сторінка якнайшвидше виглядала правильно. Скрипти можуть затримувати завантаження, тому їх розміщують перед закриттям body. Виняток — аналітичні скрипти, які краще підключати в head для збору даних про тих, хто не дочекався повного завантаження.",
+        "ru": "Стили рекомендуется подключать в head для того, чтобы страница как можно быстрее приняла свой внешний вид. Скрипты подключенные в head могут затормозить этот процесс, в связи с этим их рекомендуется подключать перед закрывающим тегом body. Исключением являются скрипты аналитики, для определения количества посетителей, которые не дождались загрузки страницы. В этом случае скрипт должен быть подключен в head.",
+        "en": "Styles should be placed in the head so the page renders properly as soon as possible. Scripts can delay rendering, so they are placed before the closing body tag. An exception is analytics scripts, which are sometimes placed in the head to track users who leave before the page fully loads."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "ua": "Що робить властивість 'z-index' у CSS?",
+        "ru": "Что делает свойство 'z-index' в CSS?",
+        "en": "What does the 'z-index' property do in CSS?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Властивість 'z-index' у CSS визначає порядок накладання елементів уздовж осі Z. Елемент із більшим значенням 'z-index' буде відображатися поверх елемента з меншим значенням.",
+        "ru": "Свойство 'z-index' в CSS контролирует стековый порядок элементов по оси Z. Элемент с большим значением 'z-index' будет отображаться поверх элемента с меньшим значением 'z-index'.",
+        "en": "The 'z-index' property in CSS controls the stacking order of elements along the Z-axis. An element with a higher z-index value will appear above an element with a lower value."
+      }
+    },
+    {
+      "id": 6,
+      "text": {
+        "ua": "Які є способи центрувати div?",
+        "ru": "Какие есть способы отцентровать div?",
+        "en": "What are the ways to center a div?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Існує кілька способів центрувати div у CSS:\n1. Використання margin та auto: `margin: 0 auto;`.\n2. Flexbox: `display: flex; justify-content: center; align-items: center;`.\n3. Grid Layout: `display: grid; place-items: center;`.\n4. Використання text-align і inline-block: `text-align: center;` на батьківському елементі і `display: inline-block;` на самому div.",
+        "ru": "Существует несколько способов отцентровать div в CSS:\n1. Использование свойств margin и auto: `margin: 0 auto;`.\n2. Использование Flexbox: `display: flex; justify-content: center; align-items: center;`.\n3. Использование Grid Layout: `display: grid; place-items: center;`.\n4. Использование свойств text-align и inline-block: `text-align: center;` на родительском элементе и `display: inline-block;` на самом div.",
+        "en": "There are several ways to center a div in CSS:\n1. Using margin and auto: `margin: 0 auto;`.\n2. Using Flexbox: `display: flex; justify-content: center; align-items: center;`.\n3. Using Grid Layout: `display: grid; place-items: center;`.\n4. Using text-align and inline-block: set `text-align: center;` on the parent and `display: inline-block;` on the div itself."
+      }
+    },
+    {
+      "id": 7,
+      "text": {
+        "ua": "Яка властивість використовується для встановлення кольору фону?",
+        "ru": "Какое свойство используется для установки цвета фона?",
+        "en": "Which property is used to set the background color?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "color", "isCorrect": false },
+        { "id": 2, "text": "background-color", "isCorrect": true },
+        { "id": 3, "text": "bgcolor", "isCorrect": false },
+        { "id": 4, "text": "background", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 8,
+      "text": {
+        "ua": "Яка властивість дозволяє встановити зовнішні відступи елемента?",
+        "ru": "Какое свойство позволяет установить внешние отступы элемента?",
+        "en": "Which property allows you to set the external margins of an element?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "padding", "isCorrect": false },
+        { "id": 2, "text": "border",  "isCorrect": false },
+        { "id": 3, "text": "margin",  "isCorrect": true },
+        { "id": 4, "text": "spacing",  "isCorrect": false }
+      ]
+    },
+    {
+      "id": 9,
+      "text": {
+        "ua": "Яка властивість використовується для встановлення шрифту?",
+        "ru": "Какое свойство используется для установки шрифта?",
+        "en": "Which property is used to set the font?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "font-weight", "isCorrect": false },
+        { "id": 2, "text": "font-style", "isCorrect": false },
+        { "id": 3, "text": "text-font", "isCorrect": false },
+        { "id": 4, "text": "font-family", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 10,
+      "text": {
+        "ua": "Яка властивість CSS дозволяє контролювати видимість елемента в DOM, але при цьому зберігає його місце?",
+        "ru": "Какое свойство CSS позволяет контролировать видимость элемента в DOM, но при этом сохраняет его место?",
+        "en": "Which CSS property controls the visibility of an element in the DOM while still keeping its place?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "display: none", "isCorrect": false },
+        { "id": 2, "text": "visibility: hidden", "isCorrect": true },
+        { "id": 3, "text": "is-visible: 0", "isCorrect": false },
+        { "id": 4, "text": "color: transparent", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 11,
+      "text": {
+        "ua": "Яка властивість CSS використовується для встановлення тіней елементів?",
+        "ru": "Какое свойство CSS используется для установки теней элементов?",
+        "en": "Which CSS property is used to add shadows to elements?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "box-shadow", "isCorrect": true },
+        { "id": 2, "text": "text-shadow", "isCorrect": false },
+        { "id": 3, "text": "shadow", "isCorrect": false },
+        { "id": 4, "text": "border-shadow", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 12,
+      "text": {
+        "ua": "Який селектор вибирає всі елементи .child, які є безпосередніми дочірніми елементами .parent?",
+        "ru": "Какой селектор выбирает все элементы .child, которые являются непосредственными дочерними элементами .parent?",
+        "en": "Which selector selects all .child elements that are direct children of .parent?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": ".parent + .child", "isCorrect": false },
+        { "id": 2, "text": ".parent ~ .child", "isCorrect": false },
+        { "id": 3, "text": ".parent > .child", "isCorrect": true },
+        { "id": 4, "text": ".parent .child", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 13,
+      "text": {
+        "ua": "Який селектор CSS вибирає всі елементи, що мають атрибут, який починається з певного рядка?",
+        "ru": "Какой селектор CSS выбирает все элементы, которые имеют указанный атрибут, начинающийся с определенной строки?",
+        "en": "Which CSS selector selects all elements that have an attribute starting with a specific string?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "[attr=value]", "isCorrect": false },
+        { "id": 2, "text": "[attr~=value]", "isCorrect": false },
+        { "id": 3, "text": "[attr|=value]", "isCorrect": false },
+        { "id": 4, "text": "[attr^=value]", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 14,
+      "text": {
+        "ua": "Який селектор CSS вибирає всі елементи, що мають атрибут, який закінчується на певний рядок?",
+        "ru": "Какой селектор CSS выбирает все элементы, которые имеют указанный атрибут, заканчивающийся определенной строкой?",
+        "en": "Which CSS selector selects all elements that have an attribute ending with a specific string?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "[attr=value]", "isCorrect": false },
+        { "id": 2, "text": "[attr~=value]", "isCorrect": false },
+        { "id": 3, "text": "[attr|=value]", "isCorrect": false },
+        { "id": 4, "text": "[attr$=value]", "isCorrect": true }
+      ]
+    }
+  ],
+  "javascript": [
+    {
+      "id": 1,
+      "text": {
+        "ua": "Що таке чиста функція?",
+        "ru": "Что такое чистая функция?",
+        "en": "What is a pure function?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Це функція, яка завжди повертає однаковий результат для однакового набору аргументів і не має побічних ефектів (side effects).",
+        "ru": "Это функция, которая возвращает одинаковый результат, когда вызывается с одним и тем же набором аргументов, а также не имеет побочных эффектов (side effects).",
+        "en": "A pure function always returns the same result for the same set of arguments and has no side effects."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "ua": "Що таке замикання?",
+        "ru": "Что такое замыкание?",
+        "en": "What is a closure?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Замикання — це здатність функції запам'ятовувати лексичне оточення, в якому вона була створена, тобто зберігати посилання на це оточення і звертатися до нього.",
+        "ru": "Замыкания – это способность функции запоминать лексическое окружение, в котором она была создана, то есть хранить в себе ссылку на это окружение и обращаться к нему.",
+        "en": "Closures are the ability of a function to remember the lexical environment in which it was created, meaning it retains access to variables from that environment."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "ua": "let VS const: чому краще використовувати const, коли це можливо?",
+        "ru": "let VS const: почему лучше использовать const, когда это возможно?",
+        "en": "let VS const: why is it better to use const whenever possible?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Використання const дає дві переваги:\n1) Безпека: оголошення змінних через const захищає від несподіваної зміни значення змінної, що часто призводить до помилок.\n2) Зрозумілість: використання const дає зрозуміти, що значення змінної не змінюватиметься протягом виконання програми.",
+        "ru": "Использование const дает два преимущества:\n1) Безопасность: объявление переменных через const защищает от неожиданного изменения значения переменной в коде, что может часто приводить к ошибкам и неожиданному поведению программы.\n2) Читаемость: использование const позволяет читателю кода понимать, что значение переменной не будет изменяться в течение выполнения программы. Это делает код более понятным и уменьшает возможность ошибок.",
+        "en": "Using const has two advantages:\n1) Safety: declaring variables with const protects against unexpected changes to the variable's value, which often leads to bugs.\n2) Readability: using const makes it clear that the value will not change throughout the program, making the code more understandable and reducing errors."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "ua": "Що таке проміси (Promises) у JavaScript?",
+        "ru": "Что такое промисы (Promises) в JavaScript?",
+        "en": "What are Promises in JavaScript?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Проміси — це об'єкти, які представляють результат асинхронної операції. Вони можуть перебувати в одному з трьох станів: очікування (pending), виконано (fulfilled) або відхилено (rejected).",
+        "ru": "Промисы – это объекты, которые представляют результат асинхронной операции. Они могут находиться в одном из трех состояний: ожидание (pending), выполнено (fulfilled) или отклонено (rejected).",
+        "en": "Promises are objects that represent the result of an asynchronous operation. They can be in one of three states: pending, fulfilled, or rejected."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "ua": "Що таке деструктуризація у JavaScript?",
+        "ru": "Что такое деструктуризация в JavaScript?",
+        "en": "What is destructuring in JavaScript?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Деструктуризація дозволяє витягувати окремі властивості з об'єктів або елементи з масивів і присвоювати їх змінним у зручній формі. Наприклад, так можна однією строкою отримати ім'я та адресу користувача з об'єкта user:\n<code>const {name, address} = user;</code>",
+        "ru": "Деструктуризация позволяет извлекать отдельные свойства из объектов или элементы из массивов и присваивать их переменным в более удобной форме. Например, вот так мы можем одной строкой извлечь имя и адрес пользователя из объекта user:\n<code>const {name, address} = user;</code>",
+        "en": "Destructuring allows you to extract individual properties from objects or elements from arrays and assign them to variables in a convenient way. For example, you can extract the name and address from a user object in one line:\n<code>const {name, address} = user;</code>"
+      }
+    },
+    {
+      "id": 6,
+      "text": {
+        "ua": "Що таке стрілочні функції у JavaScript?",
+        "ru": "Что такое стрелочные функции в JavaScript?",
+        "en": "What are arrow functions in JavaScript?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Стрілочні функції — це синтаксично компактний спосіб запису функцій у JavaScript, який не має власного 'this'. Вони часто використовуються для створення анонімних функцій.\n\n<a href='https://youtu.be/nGVYdna4kq4?si=1k0J9F-MYxWCaq6M' target='_blank'>Докладне відео про функції в JS</a>",
+        "ru": "Стрелочные функции — это синтаксически компактный способ записи функций в JavaScript, который не имеет своего собственного 'this'. Они часто используются для создания анонимных функций.\n\n<a href='https://youtu.be/nGVYdna4kq4?si=1k0J9F-MYxWCaq6M' target='_blank'>Подробное видео про функции в JS</a>",
+        "en": "Arrow functions are a syntactically compact way to write functions in JavaScript that do not have their own 'this'. They are often used to create anonymous functions.\n\n<a href='https://youtu.be/nGVYdna4kq4?si=1k0J9F-MYxWCaq6M' target='_blank'>Detailed video about functions in JS</a>"
+      }
+    },
+    {
+      "id": 7,
+      "text": {
+        "ua": "Що таке hoisting у JavaScript?",
+        "ru": "Что такое hoisting в JavaScript?",
+        "en": "What is hoisting in JavaScript?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Hoisting — це механізм у JavaScript, коли оголошення змінних і функцій 'піднімаються' на верх своєї області видимості перед виконанням коду.",
+        "ru": "Hoisting — это механизм в JavaScript, при котором переменные и объявления функций перемещаются на верх своей области видимости перед выполнением кода.",
+        "en": "Hoisting is a mechanism in JavaScript where variable and function declarations are moved to the top of their scope before code execution."
+      }
+    },
+    {
+      "id": 8,
+      "text": {
+        "ua": "Який метод використовується для додавання елемента в масив?",
+        "ru": "Какой метод используется для добавления элемента в массив?",
+        "en": "Which method is used to add an element to an array?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "splice()", "isCorrect": false },
+        { "id": 2, "text": "pop()", "isCorrect": false },
+        { "id": 3, "text": "shift()", "isCorrect": false },
+        { "id": 4, "text": "push()", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 9,
+      "text": {
+        "ua": "Який об'єкт представляє поточне вікно браузера?",
+        "ru": "Какой объект представляет текущее окно браузера?",
+        "en": "Which object represents the current browser window?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "document", "isCorrect": false },
+        { "id": 2, "text": "screen", "isCorrect": false },
+        { "id": 3, "text": "window", "isCorrect": true },
+        { "id": 4, "text": "browser", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 10,
+      "text": {
+        "ua": "Який оператор використовується для перевірки суворої рівності?",
+        "ru": "Какой оператор используется для сравнения на строгое равенство?",
+        "en": "Which operator is used for strict equality comparison?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "==", "isCorrect": false },
+        { "id": 2, "text": "===", "isCorrect": true },
+        { "id": 3, "text": "=", "isCorrect": false },
+        { "id": 4, "text": "!==", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 11,
+      "text": {
+        "ua": "Який метод використовується для видалення останнього елемента з масиву?",
+        "ru": "Какой метод используется для удаления последнего элемента из массива?",
+        "en": "What method is used to remove the last element from an array?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "splice()", "isCorrect": false },
+        { "id": 2, "text": "pop()", "isCorrect": true },
+        { "id": 3, "text": "shift()", "isCorrect": false },
+        { "id": 4, "text": "push()", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 12,
+      "text": {
+        "ua": "Який метод в JavaScript використовується для перетворення об'єкта в рядок JSON?",
+        "ru": "Какой метод в JavaScript используется для преобразования объекта в строку JSON?",
+        "en": "Which method in JavaScript is used to convert an object to a JSON string?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "JSON.stringify()", "isCorrect": true },
+        { "id": 2, "text": "JSON.parse()", "isCorrect": false },
+        { "id": 3, "text": "JSON.toText()", "isCorrect": false },
+        { "id": 4, "text": "JSON.toString()", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 13,
+      "text": {
+        "ua": "Який об'єкт в JavaScript використовується для роботи з датою та часом?",
+        "ru": "Какой объект в JavaScript используется для работы с датой и временем?",
+        "en": "Which object in JavaScript is used to work with date and time?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "Time", "isCorrect": false },
+        { "id": 2, "text": "Date", "isCorrect": true },
+        { "id": 3, "text": "Calendar", "isCorrect": false },
+        { "id": 4, "text": "DateTime", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 14,
+      "text": {
+        "ua": "Який метод масиву в JavaScript використовується для фільтрації елементів за певним критерієм?",
+        "ru": "Какой метод массива в JavaScript используется для фильтрации элементов по определенному критерию?",
+        "en": "Which array method in JavaScript is used to filter elements based on a specified criteria?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "map()", "isCorrect": false },
+        { "id": 2, "text": "filter()", "isCorrect": true },
+        { "id": 3, "text": "reduce()", "isCorrect": false },
+        { "id": 4, "text": "forEach()", "isCorrect": false }
+      ]
+    }
+  ],
+  "react": [
+    {
+      "id": 1,
+      "text": {
+        "ua": "Що таке React JS?",
+        "ru": "Что такое React JS?",
+        "en": "What is React JS?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "React JS — це відкрита бібліотека JavaScript для створення користувацьких інтерфейсів, особливо для односторінкових додатків (SPA). Основні особливості:\n1) Компонентний підхід;\n2) Віртуальний DOM для оптимізації оновлень;\n3) Хуки для функціональних компонентів;\n4) Величезна екосистема та підтримка спільноти.",
+        "ru": "React JS, или просто React, это открытая библиотека JavaScript для создания пользовательских интерфейсов, особенно для одностраничных приложений (SPA). Ключевые особенности:\n1) Компонентный подход;\n2) Виртуальный DOM для оптимизации изменений;\n3) Хуки для функциональных компонентов;\n4) Большое сообщество и экосистема.",
+        "en": "React JS is an open-source JavaScript library for building user interfaces, especially single-page applications (SPA). Key features:\n1) Component-based approach;\n2) Virtual DOM for optimized updates;\n3) Hooks for functional components;\n4) A large community and ecosystem."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "ua": "Для чого потрібний атрибут key при рендерінгу списків?",
+        "ru": "Для чего нужен атрибут key при рендере списков?",
+        "en": "What is the purpose of the key attribute when rendering lists?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Ключі допомагають React визначати, які елементи були змінені, додані або видалені. Ключ має бути унікальним для кожного елемента списку. Найкраще використовувати унікальні ідентифікатори даних. Індекси масиву можна використовувати тільки якщо елементи не додаються/не видаляються/не переставляються.",
+        "ru": "Ключи помогают React определять, какие элементы были изменены, добавлены или удалены. Ключ должен быть уникальным для каждого элемента списка. Лучше использовать уникальные ID из данных. Индексы массива можно использовать только если элементы не добавляются, не удаляются и не переставляются.",
+        "en": "Keys help React identify which items have changed, been added, or removed. The key should be unique for each list item. It's best to use unique IDs from your data. Array indexes can be used as keys only if items do not change their order or get inserted/removed."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "ua": "Як працює проп children?",
+        "ru": "Как работает проп children?",
+        "en": "How does the children prop work?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Деякі компоненти не знають своїх дочірніх елементів заздалегідь. Для таких випадків існує спеціальний проп children, який передає вкладені елементи безпосередньо в компонент.",
+        "ru": "Некоторые компоненты не знают своих потомков заранее. Для таких случаев используется специальный проп children, который передает вложенные элементы непосредственно в компонент.",
+        "en": "Some components don't know their children ahead of time. In such cases, a special prop called children is used to pass nested elements directly into the component."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "ua": "Що таке портали в React?",
+        "ru": "Что такое порталы в React?",
+        "en": "What are portals in React?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Портали дозволяють рендерити дочірні елементи у DOM-вузол поза межами DOM-ієрархії батьківського компонента. Це корисно для діалогових вікон, підказок і модальних вікон.",
+        "ru": "Порталы позволяют рендерить дочерние элементы в DOM-узел вне DOM-иерархии родительского компонента. Это полезно для создания модальных окон, всплывающих подсказок и других элементов, выходящих за рамки контейнера.",
+        "en": "Portals allow rendering children into a DOM node that exists outside the parent component's DOM hierarchy. This is useful for modals, tooltips, and popups."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "ua": "Що таке Reconciliation (Звірка)?",
+        "ru": "Что такое Reconciliation (Сверка)?",
+        "en": "What is Reconciliation?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Reconciliation — це процес, за допомогою якого React оновлює DOM. Коли змінюється стан компонента, React створює віртуальний DOM і порівнює його з попереднім, щоб визначити, що саме потрібно змінити в реальному DOM.",
+        "ru": "Reconciliation — это процесс, с помощью которого React обновляет DOM. Когда изменяется состояние компонента, React создает виртуальный DOM и сравнивает его с текущим, чтобы определить, что именно нужно обновить в реальном DOM.",
+        "en": "Reconciliation is the process by which React updates the DOM. When a component’s state changes, React creates a virtual DOM and compares it with the previous one to determine what needs to change in the real DOM."
+      }
+    },
+    {
+      "id": 6,
+      "text": {
+        "ua": "Для чого використовується хук useEffect в React?",
+        "ru": "Для чего используется хук useEffect в React?",
+        "en": "What is the use of the useEffect hook in React?"
+      },
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": {
+            "ua": "Зберігання стану компонента",
+            "ru": "Хранение состояния компонента",
+            "en": "Storing component state"
+          },
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": {
+            "ua": "Виконання побічних ефектів",
+            "ru": "Выполнение побочных эффектов",
+            "en": "Executing side effects"
+          },
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": {
+            "ua": "Мемоізація значень",
+            "ru": "Мемоизация значений",
+            "en": "Memoizing values"
+          },
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": {
+            "ua": "Створення посилань на DOM елементи",
+            "ru": "Создание ссылок на DOM элементы",
+            "en": "Creating references to DOM elements"
+          },
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": {
+        "ua": "Що буде, якщо другим аргументом у useEffect передати порожній масив []?",
+        "ru": "Что будет, если вторым аргументом в useEffect передать пустой массив []?",
+        "en": "What happens if you pass an empty array [] as the second argument to useEffect?"
+      },
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": {
+            "ua": "Помилка",
+            "ru": "Ошибка",
+            "en": "Error"
+          },
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": {
+            "ua": "useEffect буде запущено 0 разів",
+            "ru": "useEffect будет запущен 0 раз",
+            "en": "useEffect will run 0 times"
+          },
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": {
+            "ua": "useEffect буде запущено 1 раз",
+            "ru": "useEffect будет запущен 1 раз",
+            "en": "useEffect will run once"
+          },
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": {
+            "ua": "Немає правильної відповіді",
+            "ru": "Нет верного ответа",
+            "en": "No correct answer"
+          },
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": {
+        "ua": "Який хук використовується для створення стану в компоненті?",
+        "ru": "Какой хук используется для создания состояния в компоненте?",
+        "en": "Which hook is used to create state in a component?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "useEffect", "isCorrect": false },
+        { "id": 2, "text": "useState", "isCorrect": true },
+        { "id": 3, "text": "useContext", "isCorrect": false },
+        { "id": 4, "text": "useReducer", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 9,
+      "text": {
+        "ua": "Який елемент використовується для групування елементів без додавання додаткових вузлів у DOM?",
+        "ru": "Какой элемент используется для группировки элементов без добавления дополнительных узлов в DOM?",
+        "en": "Which element is used to group elements without adding extra nodes to the DOM?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<Group>", "isCorrect": false },
+        { "id": 2, "text": "<Div>", "isCorrect": false },
+        { "id": 3, "text": "<Fragment> (<>)", "isCorrect": true },
+        { "id": 4, "text": "<List>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 10,
+      "text": {
+        "ua": "У нас є масив зі строками (arr), кожну з яких ми хочемо відобразити на сторінці. Який метод масиву потрібно застосувати в return компонента?",
+        "ru": "У нас есть массив со строками (arr), каждую из которых мы хотим отразить на странице. Какой метод массива нужно применить в return компонента?",
+        "en": "We have an array of strings (arr), each of which we want to display on the page. Which array method should we use in the component's return?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "{arr.forEach(...)}", "isCorrect": false },
+        { "id": 2, "text": "{arr.filter(...)}", "isCorrect": false },
+        { "id": 3, "text": "{arr.for(...)}", "isCorrect": false },
+        { "id": 4, "text": "{arr.map(...)}", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 11,
+      "text": {
+        "ua": "Який елемент використовується для обробки помилок у дереві компонентів?",
+        "ru": "Какой элемент используется для обработки ошибок в дереве компонентов?",
+        "en": "Which element is used for error handling in the component tree?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "ErrorBoundary", "isCorrect": true },
+        { "id": 2, "text": "CatchError", "isCorrect": false },
+        { "id": 3, "text": "ErrorWrapper", "isCorrect": false },
+        { "id": 4, "text": "ErrorCatcher", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 12,
+      "text": {
+        "ua": "Який (які) аргумент(и) приймає хук useMemo?",
+        "ru": "Какой (какие) аргумент(ы) принимает хук useMemo?",
+        "en": "Which argument(s) does the useMemo hook accept?"
+      },
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": {
+            "ua": "Функцію і масив залежностей",
+            "ru": "Функцию и массив зависимостей",
+            "en": "A function and a dependency array"
+          },
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": {
+            "ua": "Функцію і об'єкт опцій",
+            "ru": "Функцию и объект опций",
+            "en": "A function and an options object"
+          },
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": {
+            "ua": "Функцію",
+            "ru": "Функцию",
+            "en": "A function"
+          },
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": {
+            "ua": "Масив залежностей",
+            "ru": "Массив зависимостей",
+            "en": "A dependency array"
+          },
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": {
+        "ua": "Для чого використовується хук useCallback в React?",
+        "ru": "Для чего используется хук useCallback в React?",
+        "en": "What is the use of the useCallback hook in React?"
+      },
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": {
+            "ua": "Створення посилань на DOM елементи",
+            "ru": "Создание ссылок на DOM элементы",
+            "en": "Creating references to DOM elements"
+          },
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": {
+            "ua": "Зберігання стану компонента",
+            "ru": "Хранение состояния компонента",
+            "en": "Storing component state"
+          },
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": {
+            "ua": "Виконання побічних ефектів",
+            "ru": "Выполнение побочных эффектов",
+            "en": "Executing side effects"
+          },
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": {
+            "ua": "Мемоізація функцій",
+            "ru": "Мемоизация функций",
+            "en": "Memoizing functions"
+          },
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "typescript": [
+    {
+      "id": 1,
+      "text": {
+        "ua": "Що таке TypeScript?",
+        "ru": "Что такое TypeScript?",
+        "en": "What is TypeScript?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "TypeScript — це покращена версія JavaScript, в якій можна вказувати типи даних. Це допомагає заздалегідь знаходити помилки і робить код зрозумілішим. TypeScript перетворюється в звичайний JavaScript, щоб працювати в браузері.",
+        "ru": "TypeScript — это улучшенная версия JavaScript, в которой можно указывать типы данных. Это помогает заранее находить ошибки и делает код понятнее. TypeScript превращается в обычный JavaScript, чтобы работать в браузере.",
+        "en": "TypeScript is an enhanced version of JavaScript that allows you to specify data types. It helps catch errors early and makes the code clearer. TypeScript is compiled into regular JavaScript to run in the browser."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "ua": "Який синтаксис використовується для визначення типу змінної в TypeScript?",
+        "ru": "Какой синтаксис используется для задания типа переменной в TypeScript?",
+        "en": "What syntax is used to assign a variable type in TypeScript?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "let name = string;", "isCorrect": false },
+        { "id": 2, "text": "string name = 'Anna';", "isCorrect": false },
+        { "id": 3, "text": "let name: string = 'Anna';", "isCorrect": true },
+        { "id": 4, "text": "let: string name = 'Anna';", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 3,
+      "text": {
+        "ua": "Що робить ключове слово 'any' в TypeScript?",
+        "ru": "Что делает ключевое слово 'any' в TypeScript?",
+        "en": "What does the 'any' keyword do in TypeScript?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Тип 'any' вимикає перевірку типів для змінної, дозволяючи їй приймати будь-яке значення. Використовується, коли тип невідомий на момент написання коду.",
+        "ru": "Тип 'any' отключает проверку типов для переменной, позволяя ей принимать любое значение. Используется, когда тип неизвестен на момент написания кода.",
+        "en": "'any' type disables type checking for a variable, allowing it to accept any value. It is used when the type is unknown at the time of writing the code."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "ua": "Який тип слід використовувати, якщо змінна може бути числом або рядком?",
+        "ru": "Какой тип следует использовать, если переменная может быть числом или строкой?",
+        "en": "Which type should be used if the variable can be a number or a string?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "numberOrString", "isCorrect": false },
+        { "id": 2, "text": "number|string", "isCorrect": true },
+        { "id": 3, "text": "number|string()", "isCorrect": false },
+        { "id": 4, "text": "union(number, string)", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 5,
+      "text": {
+        "ua": "Що таке інтерфейс (interface) в TypeScript?",
+        "ru": "Что такое интерфейс (interface) в TypeScript?",
+        "en": "What is an interface in TypeScript?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Інтерфейс в TypeScript визначає структуру об'єкта — які властивості та методи він повинен містити. Це спосіб вказати тип для складних об'єктів.",
+        "ru": "Интерфейс в TypeScript определяет структуру объекта — какие свойства и методы он должен содержать. Это способ указать тип для сложных объектов.",
+        "en": "An interface in TypeScript defines the structure of an object — which properties and methods it should contain. It is a way to specify a type for complex objects."
+      }
+    },
+    {
+      "id": 6,
+      "text": {
+        "ua": "Як в TypeScript оголосити масив чисел?",
+        "ru": "Как в TypeScript объявить массив чисел?",
+        "en": "How to declare an array of numbers in TypeScript?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "let numbers: Array = [1, 2, 3];", "isCorrect": false },
+        { "id": 2, "text": "let numbers: number[] = [1, 2, 3];", "isCorrect": true },
+        { "id": 3, "text": "let numbers = number[1, 2, 3];", "isCorrect": false },
+        { "id": 4, "text": "let numbers = [1, 2, 3] as number;", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 7,
+      "text": {
+        "ua": "Що таке тип 'unknown' в TypeScript?",
+        "ru": "Что такое тип 'unknown' в TypeScript?",
+        "en": "What is the 'unknown' type in TypeScript?"
+      },
+      "hasOptions": false,
+      "answer": {
+        "ua": "Тип 'unknown' використовується, коли змінна може містити будь-яке значення, але на відміну від 'any', вимагає перевірки типу перед виконанням операцій з цією змінною.",
+        "ru": "Тип 'unknown' используется, когда переменная может содержать любое значение, но в отличие от 'any', требует проверки типа перед выполнением операций с этой переменной.",
+        "en": "'unknown' type is used when a variable can hold any value, but unlike 'any', it requires a type check before performing operations with that variable."
+      }
+    },
+    {
+      "id": 8,
+      "text": {
+        "ua": "Як оголосити функцію, яка повертає рядок, у TypeScript?",
+        "ru": "Как объявить функцию, возвращающую строку, в TypeScript?",
+        "en": "How to declare a function that returns a string in TypeScript?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "function getName(): string { return 'Alice'; }", "isCorrect": true },
+        { "id": 2, "text": "function getName: string() { return 'Alice'; }", "isCorrect": false },
+        { "id": 3, "text": "function getName() => string { return 'Alice'; }", "isCorrect": false },
+        { "id": 4, "text": "function getName() { return string 'Alice'; }", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 9,
+      "text": {
+        "ua": "Який з наступних варіантів коректно визначає інтерфейс користувача з полем name типу string?",
+        "ru": "Какой из следующих вариантов корректно определяет интерфейс пользователя с полем name типа string?",
+        "en": "Which of the following correctly defines a user interface with a name field of type string?"
+      },
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "interface User { name: string }", "isCorrect": true },
+        { "id": 2, "text": "interface User { string name }", "isCorrect": false },
+        { "id": 3, "text": "interface User (name: string)", "isCorrect": false },
+        { "id": 4, "text": "interface User: { name = string }", "isCorrect": false }
+      ]
+    }
+  ]
+}
