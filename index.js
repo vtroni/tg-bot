@@ -13,8 +13,7 @@ bot.command('start', async (ctx) => {
     .text('English')
     .resized();
 
-  const lang = userLanguage.get(ctx.from.id) || 'ru';
-  await ctx.reply(translations[lang].chooseLanguage, {
+  await ctx.reply('Выбери язык / Обери мову / Choose language', {
     reply_markup: langKeyboard,
   })
 });
